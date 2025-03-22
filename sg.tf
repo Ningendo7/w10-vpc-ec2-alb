@@ -26,7 +26,7 @@ resource "aws_security_group" "sg-demo" {
 }
 
 resource "aws_security_group" "sg-demo1" {
-  name        = "web-sg"
+  name        = "Terraform-sg"
   vpc_id      = aws_vpc.vp1.id
   description = "Allow ssh and httpd"
 
